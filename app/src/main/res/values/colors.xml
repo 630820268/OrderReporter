@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="login_tv">#666666</color>
+    <color name="login_view">#DCDCDC</color>
+    <color name="title_bg">#22292C</color>
+    <color name="title_view">#000000</color>
+    <color name="login_btn_bg">#F68300</color>
+    <color name="login_et_hint">#DCDCDC</color>
+
+    <color name="gather_zfb_bg">#009FE8</color>
+    <color name="gather_wx_bg">#41B035</color>
+    <color name="gather_set">#999999</color>
+    <color name="pay_top">#333333</color>
+    <color name="pay_bg">#F5F5F5</color>
+    <color name="pay_gather">#FFCF93</color>
+    <color name="bill_yesterday">#F8F8F8</color>
+    <color name="bill_today_text">#222222</color>
+    <color name="bill_bg">#EFEFEF</color>
+
+    <color name="query_total">#DF1717</color>
+</resources>

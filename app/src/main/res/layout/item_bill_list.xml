@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90px">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/item_bill_list_type_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝收款"
+            android:textColor="@color/login_tv"
+            android:textSize="22px"/>
+        <TextView
+            android:id="@+id/item_bill_list_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8px"
+            android:text="13:45:22"
+            android:textSize="22px"
+            android:textColor="@color/gather_set"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_bill_list_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100元"
+        android:textSize="22px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="35px"
+        android:textColor="@color/login_tv"/>
+
+</RelativeLayout>

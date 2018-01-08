@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bill_bg"
+    tools:context="com.example.administrator.orderreporter.gather.QuitActivity">
+
+    <include layout="@layout/view_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="80px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户"
+            android:textSize="24px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:textColor="@color/login_tv"
+            />
+        <TextView
+            android:id="@+id/quit_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收银员001"
+            android:textSize="24px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="48px"
+            android:textColor="@color/gather_set"
+            />
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/quit_tv"
+        android:layout_width="380px"
+        android:layout_height="80px"
+        android:background="@drawable/shape_login_btn_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170px"
+        android:text="退出"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="24px"/>
+</LinearLayout>

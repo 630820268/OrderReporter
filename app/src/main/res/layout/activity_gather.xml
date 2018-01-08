@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.orderreporter.gather.GatherActivity">
+
+    <LinearLayout
+        android:id="@+id/gather_zfb_linear"
+        android:layout_width="340px"
+        android:layout_height="70px"
+        android:layout_marginTop="260px"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_gather_zfb_bg"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="90px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/gather_zfb_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:text="支付宝收款"
+            android:textColor="@android:color/white"
+            android:textSize="24px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gather_wx_linear"
+        android:layout_width="340px"
+        android:layout_height="70px"
+        android:layout_marginTop="40px"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_gather_wx_bg"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_marginLeft="90px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/gather_wx_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:text="微信收款"
+            android:textColor="@android:color/white"
+            android:textSize="24px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gather_bill_linear"
+        android:layout_width="340px"
+        android:layout_height="70px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40px"
+        android:background="@drawable/shape_gather_bill_bg"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="90px"
+            android:src="@drawable/gather_bill_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:text="查询账单"
+            android:textColor="@android:color/white"
+            android:textSize="24px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gather_set_linear"
+        android:layout_marginTop="185px"
+        android:layout_width="300px"
+        android:layout_height="50px"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25px"
+            android:layout_height="25px"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/gather_set_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textSize="24px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:textColor="@color/gather_set"/>
+    </LinearLayout>
+
+</LinearLayout>
